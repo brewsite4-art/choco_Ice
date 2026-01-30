@@ -1,10 +1,10 @@
-import { MapPin, Clock, Phone, Truck } from 'lucide-react';
+import { Truck, Instagram, Facebook } from 'lucide-react';
 import { deliveryFees } from '@/data/menuData';
 import { useLanguage } from '@/contexts/LanguageContext';
 
 export const DeliveryBanner = () => {
   const { t } = useLanguage();
-
+  /* Delivery Banner */
   return (
     <div className="bg-chocolate text-cream py-3">
       <div className="max-w-6xl mx-auto px-4 flex flex-wrap items-center justify-center gap-6 text-sm">
@@ -23,42 +23,35 @@ export const Footer = () => {
   return (
     <footer id="contact" className="bg-coffee text-cream py-12">
       <div className="max-w-6xl mx-auto px-4">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div className="text-center max-w-2xl mx-auto">
           {/* Brand */}
-          <div>
-            <h3 className="text-3xl font-playfair font-bold mb-4">
-              <span className="text-gold">Choco</span> ICE
-            </h3>
-            <p className="text-cream/80 leading-relaxed">
-              {t('footer.description')}
-            </p>
-          </div>
+          <h3 className="text-3xl font-playfair font-bold mb-4">
+            <span className="text-gold">Choco</span> ICE
+          </h3>
+          <p className="text-cream/80 leading-relaxed">
+            {t('footer.description')}
+          </p>
 
-          {/* Contact */}
-          <div>
-            <h4 className="font-playfair font-semibold text-xl mb-4 text-gold">{t('footer.contact')}</h4>
-            <div className="space-y-3">
-              <div className="flex items-start gap-3">
-                <MapPin className="w-5 h-5 text-gold flex-shrink-0 mt-0.5" />
-                <span className="text-cream/80">Wilaya centre, Tétouan 93020</span>
-              </div>
-              <div className="flex items-center gap-3">
-                <Phone className="w-5 h-5 text-gold" />
-                <span className="text-cream/80">+212 600 000 000</span>
-              </div>
-            </div>
-          </div>
-
-          {/* Hours */}
-          <div>
-            <h4 className="font-playfair font-semibold text-xl mb-4 text-gold">{t('footer.hours')}</h4>
-            <div className="flex items-start gap-3">
-              <Clock className="w-5 h-5 text-gold flex-shrink-0 mt-0.5" />
-              <div className="text-cream/80">
-                <p>{t('footer.monSat')}</p>
-                <p>{t('footer.sunday')}</p>
-              </div>
-            </div>
+          {/* Social Media Links */}
+          <div className="flex justify-center gap-4 mt-6">
+            <a
+              href="https://instagram.com/choco_ice_tetouan/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="w-12 h-12 rounded-full bg-gold/10 hover:bg-gold/20 flex items-center justify-center transition-all duration-300 hover:scale-110"
+              aria-label="Instagram"
+            >
+              <Instagram className="w-6 h-6 text-gold" />
+            </a>
+            <a
+              href="https://www.facebook.com/Chocoice99/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="w-12 h-12 rounded-full bg-gold/10 hover:bg-gold/20 flex items-center justify-center transition-all duration-300 hover:scale-110"
+              aria-label="Facebook"
+            >
+              <Facebook className="w-6 h-6 text-gold" />
+            </a>
           </div>
         </div>
 

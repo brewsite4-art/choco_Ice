@@ -1,15 +1,16 @@
 
 import { MapPin, Clock, Phone } from 'lucide-react';
 import { Card, CardContent } from '@/components/ui/card';
+import { useLanguage } from '@/contexts/LanguageContext';
 
 const LocationSection = () => {
-  
+  const { t } = useLanguage();
 
   return (
     <section id="location" className="py-20 bg-background">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
-          
+
         </div>
 
         <div className="grid lg:grid-cols-2 gap-8 max-w-6xl mx-auto">
@@ -36,10 +37,10 @@ const LocationSection = () => {
                 </div>
                 <div>
                   <h3 className="font-serif text-xl font-bold text-foreground mb-2">
-                    
+                    {t('footer.location')}
                   </h3>
-                  <p className="text-cream/80">Wilaya centre, Tétouan 93020</p>
-                  
+                  <p className="text-muted-foreground">Wilaya centre, Tétouan 93020</p>
+
                 </div>
               </CardContent>
             </Card>
@@ -51,9 +52,12 @@ const LocationSection = () => {
                 </div>
                 <div>
                   <h3 className="font-serif text-xl font-bold text-foreground mb-2">
-                    
+                    {t('footer.hours')}
                   </h3>
-                  
+                  <div className="text-muted-foreground">
+                    <p>{t('footer.monSat')}</p>
+                    <p>{t('footer.sunday')}</p>
+                  </div>
                 </div>
               </CardContent>
             </Card>
@@ -65,7 +69,7 @@ const LocationSection = () => {
                 </div>
                 <div>
                   <h3 className="font-serif text-xl font-bold text-foreground mb-2">
-                    
+                    {t('footer.contact')}
                   </h3>
                   <p className="text-muted-foreground">+212 600 000 000</p>
                 </div>

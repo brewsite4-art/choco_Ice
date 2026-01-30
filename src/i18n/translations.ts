@@ -39,6 +39,10 @@ export const translations: Translations = {
     fr: 'Choose your flavour',
     ar: 'اختر نكهتك',
   },
+  'menu.qrCodeText': {
+    fr: 'Scannez le QR code pour découvrir notre carte complète',
+    ar: 'امسح رمز الاستجابة السريعة لاكتشاف قائمتنا الكاملة',
+  },
 
   // Categories
   'category.hotDrinks': {
@@ -122,6 +126,10 @@ export const translations: Translations = {
   'footer.description': {
     fr: 'Votre salon de thé préféré à Tétouan. Des moments de douceur et de gourmandise.',
     ar: 'صالون الشاي المفضل لديك في تطوان. لحظات من الحلاوة واللذة.',
+  },
+  'footer.location': {
+    fr: 'Localisation',
+    ar: 'الموقع',
   },
   'footer.contact': {
     fr: 'Contact',

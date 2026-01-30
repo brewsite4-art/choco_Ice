@@ -5,7 +5,6 @@ import type { MenuItem } from '@/data/menuData';
 import { MenuItemCard } from './MenuItemCard';
 import { CategoryIcon } from './CategoryIcon';
 import { Card, CardContent } from '@/components/ui/card';
-import { QrCode } from 'lucide-react';
 import { useLanguage } from '@/contexts/LanguageContext';
 import { categoryTranslationKeys } from '@/i18n/translations';
 
@@ -47,8 +46,8 @@ export const MenuSection = ({ onAddToCart }: MenuSectionProps) => {
                 key={category}
                 onClick={() => setActiveCategory(category)}
                 className={`flex flex-col items-center gap-1 px-5 py-3 rounded-full font-medium transition-all duration-300 ${activeCategory === category
-                    ? 'bg-chocolate text-cream shadow-card scale-105'
-                    : 'bg-cream text-chocolate hover:bg-cream-dark'
+                  ? 'bg-chocolate text-cream shadow-card scale-105'
+                  : 'bg-cream text-chocolate hover:bg-cream-dark'
                   }`}
               >
                 <div className="flex items-center gap-2">
@@ -73,10 +72,16 @@ export const MenuSection = ({ onAddToCart }: MenuSectionProps) => {
         <div className="mt-16 text-center">
           <Card className="inline-block shadow-xl border-none bg-card p-8">
             <CardContent className="p-0">
-              <div className="w-48 h-48 mx-auto bg-background rounded-xl flex items-center justify-center mb-4 border-2 border-border">
-                <QrCode className="w-32 h-32 text-foreground" />
+              <div className="w-48 h-48 mx-auto bg-background rounded-xl flex items-center justify-center mb-4 border-2 border-border overflow-hidden">
+                <img
+                  src="/assets/QR.jpg"
+                  alt="QR Code Menu"
+                  className="w-full h-full object-cover"
+                />
               </div>
-
+              <p className="text-muted-foreground text-sm mt-4">
+                {t('menu.qrCodeText')}
+              </p>
             </CardContent>
           </Card>
         </div>
