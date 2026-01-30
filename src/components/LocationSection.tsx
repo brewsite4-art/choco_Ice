@@ -16,7 +16,7 @@ const LocationSection = () => {
           {/* Map */}
           <div className="rounded-xl overflow-hidden shadow-xl h-[400px]">
             <iframe
-              src="https://www.google.com/maps/place/Glacier+Choco+ice-Wilaya/@35.5857592,-5.3413507,17z/data=!4m14!1m7!3m6!1s0xd0b43004042461f:0xed673242e766d5df!2sGlacier+Choco+ice-Wilaya!8m2!3d35.5857592!4d-5.3413507!16s%2Fg%2F11wbjygd24!3m5!1s0xd0b43004042461f:0xed673242e766d5df!8m2!3d35.5857592!4d-5.3413507!16s%2Fg%2F11wbjygd24!17m2!4m1!1e3!18m1!1e1?entry=ttu&g_ep=EgoyMDI2MDEyNS4wIKXMDSoASAFQAw%3D%3D"
+              src="https://maps.app.goo.gl/ZzcwzK8UmiWeD7Ww6"
               width="100%"
               height="100%"
               style={{ border: 0 }}
@@ -38,6 +38,7 @@ const LocationSection = () => {
                   <h3 className="font-serif text-xl font-bold text-foreground mb-2">
                     
                   </h3>
+                  <p className="text-cream/80">Wilaya centre, Tétouan 93020</p>
                   
                 </div>
               </CardContent>
