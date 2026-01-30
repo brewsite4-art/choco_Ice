@@ -33,7 +33,8 @@ export const Footer = () => {
           </p>
 
           {/* Social Media Links */}
-          <div className="flex justify-center gap-4 mt-6">
+          <p className="text-cream/90 font-medium mt-6 mb-3">{t('footer.followUs')}</p>
+          <div className="flex justify-center gap-4">
             <a
               href="https://instagram.com/choco_ice_tetouan/"
               target="_blank"

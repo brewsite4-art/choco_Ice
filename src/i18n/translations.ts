@@ -127,6 +127,10 @@ export const translations: Translations = {
     fr: 'Votre salon de thé préféré à Tétouan. Des moments de douceur et de gourmandise.',
     ar: 'صالون الشاي المفضل لديك في تطوان. لحظات من الحلاوة واللذة.',
   },
+  'footer.followUs': {
+    fr: 'Suivez-nous',
+    ar: 'تابعنا',
+  },
   'footer.location': {
     fr: 'Localisation',
     ar: 'الموقع',

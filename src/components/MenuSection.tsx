@@ -74,7 +74,7 @@ export const MenuSection = ({ onAddToCart }: MenuSectionProps) => {
             <CardContent className="p-0">
               <div className="w-48 h-48 mx-auto bg-background rounded-xl flex items-center justify-center mb-4 border-2 border-border overflow-hidden">
                 <img
-                  src="/assets/QR.jpg"
+                  src="/assets/qr-code.jpg"
                   alt="QR Code Menu"
                   className="w-full h-full object-cover"
                 />
