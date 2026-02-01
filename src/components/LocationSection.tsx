@@ -6,76 +6,62 @@ import { useLanguage } from '@/contexts/LanguageContext';
 const LocationSection = () => {
   const { t } = useLanguage();
 
+  const locations = [
+    {
+      nameKey: 'locations.ainKhabaz',
+      mapUrl: 'https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3245.4921097387396!2d-5.383430824217379!3d35.56624367262459!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzXCsDMzJzU4LjUiTiA1wrAyMic1MS4xIlc!5e0!3m2!1sfr!2sma!4v1769949545198!5m2!1sfr!2sma" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>',
+    },
+    {
+      nameKey: 'locations.wilayaCentre',
+      mapUrl: 'https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3244.7014844369874!2d-5.343925624216558!3d35.58575917261831!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzXCsDM1JzA4LjciTiA1wrAyMCcyOC45Ilc!5e0!3m2!1sfr!2sma!4v1769949490782!5m2!1sfr!2sma" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>',
+    },
+    {
+      nameKey: 'locations.martil',
+      mapUrl: 'https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3242.921764160296!2d-5.277106424214564!3d35.6296551726039!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzXCsDM3JzQ2LjgiTiA1wrAxNicyOC4zIlc!5e0!3m2!1sfr!2sma!4v1769949580424!5m2!1sfr!2sma" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>',
+    },
+  ];
+
   return (
     <section id="location" className="py-20 bg-background">
       <div className="container mx-auto px-4">
-        <div className="text-center mb-16">
-
+        {/* Section Header */}
+        <div className="text-center mb-12">
+          <h2 className="font-serif text-4xl md:text-5xl font-bold text-foreground mb-4">
+            {t('locations.title')}
+          </h2>
+          <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+            {t('locations.description')}
+          </p>
         </div>
 
-        <div className="grid lg:grid-cols-2 gap-8 max-w-6xl mx-auto">
-          {/* Map */}
-          <div className="rounded-xl overflow-hidden shadow-xl h-[400px]">
-            <iframe
-              src="https://maps.app.goo.gl/ZzcwzK8UmiWeD7Ww6"
-              width="100%"
-              height="100%"
-              style={{ border: 0 }}
-              allowFullScreen
-              loading="lazy"
-              referrerPolicy="no-referrer-when-downgrade"
-              title="ChocoIce Location"
-            />
-          </div>
-
-          {/* Info Cards */}
-          <div className="space-y-6">
-            <Card className="shadow-lg border-none bg-card">
-              <CardContent className="p-6 flex items-start gap-4">
-                <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center flex-shrink-0">
-                  <MapPin className="h-6 w-6 text-primary" />
-                </div>
-                <div>
-                  <h3 className="font-serif text-xl font-bold text-foreground mb-2">
-                    {t('footer.location')}
-                  </h3>
-                  <p className="text-muted-foreground">Wilaya centre, Tétouan 93020</p>
-
-                </div>
-              </CardContent>
-            </Card>
-
-            <Card className="shadow-lg border-none bg-card">
-              <CardContent className="p-6 flex items-start gap-4">
-                <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center flex-shrink-0">
-                  <Clock className="h-6 w-6 text-primary" />
-                </div>
-                <div>
-                  <h3 className="font-serif text-xl font-bold text-foreground mb-2">
-                    {t('footer.hours')}
-                  </h3>
-                  <div className="text-muted-foreground">
-                    <p>{t('footer.monSat')}</p>
-                    <p>{t('footer.sunday')}</p>
+        {/* Maps Grid */}
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto">
+          {locations.map((location, index) => (
+            <Card key={index} className="shadow-lg border-none bg-card overflow-hidden">
+              <CardContent className="p-0">
+                <div className="p-4 bg-card">
+                  <div className="flex items-center gap-2 mb-3">
+                    <MapPin className="h-5 w-5 text-primary" />
+                    <h3 className="font-serif text-xl font-bold text-foreground">
+                      {t(location.nameKey)}
+                    </h3>
                   </div>
                 </div>
-              </CardContent>
-            </Card>
-
-            <Card className="shadow-lg border-none bg-card">
-              <CardContent className="p-6 flex items-start gap-4">
-                <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center flex-shrink-0">
-                  <Phone className="h-6 w-6 text-primary" />
-                </div>
-                <div>
-                  <h3 className="font-serif text-xl font-bold text-foreground mb-2">
-                    {t('footer.contact')}
-                  </h3>
-                  <p className="text-muted-foreground">+212 600 000 000</p>
+                <div className="h-[300px]">
+                  <iframe
+                    src={location.mapUrl}
+                    width="100%"
+                    height="100%"
+                    style={{ border: 0 }}
+                    allowFullScreen
+                    loading="lazy"
+                    referrerPolicy="no-referrer-when-downgrade"
+                    title={`${t(location.nameKey)} Location`}
+                  />
                 </div>
               </CardContent>
             </Card>
-          </div>
+          ))}
         </div>
       </div>
     </section>

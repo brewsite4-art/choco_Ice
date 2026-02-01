@@ -10,12 +10,12 @@ export interface Translations {
 export const translations: Translations = {
   // Hero Section
   'hero.tagline': {
-    fr: 'Salon de Thé & Café',
-    ar: 'صالون الشاي والقهوة',
+    fr: 'Boutique de Glaces et Desserts',
+    ar: 'متجر المثلجات والحلويات',
   },
   'hero.description': {
-    fr: 'Découvrez nos crêpes gourmandes, gaufres croustillantes, milkshakes onctueux et boissons chaudes dans une ambiance chaleureuse',
-    ar: 'اكتشف كريباتنا اللذيذة، الوافل المقرمش، الميلك شيك الكريمي والمشروبات الساخنة في أجواء دافئة',
+    fr: 'Découvrez nos glaces artisanales et nos tartes gourmandes glacées, spécialement conçues pour les traiteurs et les professionnels de la restauration.',
+    ar: 'اكتشفوا المثلجات المصنوعة يدوياً وفطائرنا المثلجة الشهية، المصممة خصيصاً لمقدمي خدمات التموين والمتخصصين في مجال المطاعم.'
   },
   'hero.viewMenu': {
     fr: 'Voir le Menu',
@@ -24,6 +24,15 @@ export const translations: Translations = {
   'hero.whatsappMessage': {
     fr: 'Bonjour, je souhaite passer une commande',
     ar: 'مرحباً، أريد أن أطلب',
+  },
+  // History Section
+  'history.title': {
+    fr: 'Notre Histoire',
+    ar: 'قصتنا',
+  },
+  'history.content': {
+    fr: 'Depuis 1989, Choco Ice vous accueille dans un cadre convivial et moderne. Animés par la passion des glaces et des desserts de qualité, nous mettons notre savoir-faire au service de la qualité en sélectionnant soigneusement nos ingrédients afin d’offrir des saveurs authentiques et une expérience rafraîchissante à chaque visite.',
+    ar: 'منذ 1989، يرحب بكم شوكو آيس في أجواء ودية وعصرية. مدفوعين بشغفنا للآيس كريم والحلويات عالية الجودة، نضع خبرتنا في خدمة الجودة من خلال اختيار مكوناتنا بعناية لتقديم نكهات أصلية وتجربة منعشة في كل زيارة.',
   },
 
   // Menu Section
@@ -122,10 +131,32 @@ export const translations: Translations = {
     ar: 'التوصيل: تطوان {tetouan} درهم • مرتيل {martil} درهم',
   },
 
+  // Locations Section
+  'locations.title': {
+    fr: 'Nos Emplacements',
+    ar: 'مواقعنا',
+  },
+  'locations.description': {
+    fr: 'Retrouvez-nous dans nos 3 points de vente à Tétouan et Martil',
+    ar: 'تجدوننا في نقاط البيع الثلاثة في تطوان ومرتيل',
+  },
+  'locations.ainKhabaz': {
+    fr: 'Ain Khabaz',
+    ar: 'عين خباز',
+  },
+  'locations.wilayaCentre': {
+    fr: 'Wilaya Centre',
+    ar: 'وسط المدينة',
+  },
+  'locations.martil': {
+    fr: 'Martil',
+    ar: 'مارتيل',
+  },
+
   // Footer
   'footer.description': {
-    fr: 'Votre salon de thé préféré à Tétouan. Des moments de douceur et de gourmandise.',
-    ar: 'صالون الشاي المفضل لديك في تطوان. لحظات من الحلاوة واللذة.',
+    fr: 'Votre boutique de glace préféré à Tétouan. Des moments de douceur et de gourmandise.',
+    ar: 'متجر المثلجات المفضل لديك في تطوان. لحظات من الحلاوة واللذة.',
   },
   'footer.followUs': {
     fr: 'Suivez-nous',

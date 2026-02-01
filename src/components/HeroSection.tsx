@@ -1,4 +1,4 @@
-import heroBg from '@/assets/hero-bg.jpg';
+import heroBg from '@/assets/glace2.jpg';
 import { Button } from '@/components/ui/button';
 import { MessageCircle } from 'lucide-react';
 import { useLanguage } from '@/contexts/LanguageContext';

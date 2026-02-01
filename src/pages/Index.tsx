@@ -1,5 +1,6 @@
 import { useState, useCallback } from 'react';
 import { HeroSection } from '@/components/HeroSection';
+import HistorySection from '@/components/HistorySection';
 import { MenuSection } from '@/components/MenuSection';
 import { Cart } from '@/components/Cart';
 import { DeliveryBanner, Footer } from '@/components/Footer';
@@ -55,6 +56,7 @@ const Index = () => {
     <div className="min-h-screen bg-background">
       <DeliveryBanner />
       <HeroSection />
+      <HistorySection />
       <MenuSection onAddToCart={handleAddToCart} />
       <LocationSection />
       <Footer />
