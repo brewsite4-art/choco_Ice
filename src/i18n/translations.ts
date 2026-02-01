@@ -156,7 +156,7 @@ export const translations: Translations = {
   // Footer
   'footer.description': {
     fr: 'Votre boutique de glace préféré à Tétouan. Des moments de douceur et de gourmandise.',
-    ar: 'متجر المثلجات المفضل لديك في تطوان. لحظات من الحلاوة واللذة.',
+    ar: 'متجر المثلجات المفضل لديكم في تطوان. لحظات من الحلاوة واللذة.',
   },
   'footer.followUs': {
     fr: 'Suivez-nous',
@@ -185,6 +185,18 @@ export const translations: Translations = {
   'footer.rights': {
     fr: '© 2026 Choco ICE. Tous droits réservés.',
     ar: '© 2026 شوكو آيس. جميع الحقوق محفوظة.',
+  },
+  'footer.phone': {
+    fr: '0659-944838',
+    ar: '0659-944838',
+  },
+  'footer.email': {
+    fr: 'icechoco253@gmail.com',
+    ar: 'icechoco253@gmail.com',
+  },
+  'footer.schedule': {
+    fr: 'Ouvert dans l’après-midi et jusque tard dans la nuit (12 h 00 – 03 h 00)',
+    ar: 'مفتوح في فترة بعد الظهر وحتى وقت متأخر من الليل (12:00 – 03:00)',
   },
 
   // WhatsApp Order Message
