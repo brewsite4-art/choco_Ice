@@ -48,6 +48,10 @@ export const translations: Translations = {
     fr: 'Ajouter au panier',
     ar: 'أضف إلى السلة',
   },
+  'gallery.showMore': {
+    fr: 'Voir plus',
+    ar: 'عرض المزيد',
+  },
 
   // Menu Section
   'menu.title': {
