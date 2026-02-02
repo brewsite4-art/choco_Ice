@@ -35,6 +35,16 @@ export const translations: Translations = {
     ar: 'منذ 1989، يرحب بكم شوكو آيس في أجواء ودية وعصرية. مدفوعين بشغفنا للآيس كريم والحلويات عالية الجودة، نضع خبرتنا في خدمة الجودة من خلال اختيار مكوناتنا بعناية لتقديم نكهات أصلية وتجربة منعشة في كل زيارة.',
   },
 
+  // Gallery Section
+  'gallery.title': {
+    fr: 'Notre Galerie',
+    ar: 'معرض صورنا',
+  },
+  'gallery.order': {
+    fr: 'Commander cette tarte',
+    ar: 'اطلب هذه الفطيرة',
+  },
+
   // Menu Section
   'menu.title': {
     fr: 'Notre Menu',

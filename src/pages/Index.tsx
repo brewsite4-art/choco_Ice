@@ -1,6 +1,7 @@
 import { useState, useCallback } from 'react';
 import { HeroSection } from '@/components/HeroSection';
 import HistorySection from '@/components/HistorySection';
+import GallerySection from '@/components/GallerySection';
 import { MenuSection } from '@/components/MenuSection';
 import { Cart } from '@/components/Cart';
 import { DeliveryBanner, Footer } from '@/components/Footer';
@@ -57,6 +58,7 @@ const Index = () => {
       <DeliveryBanner />
       <HeroSection />
       <HistorySection />
+      <GallerySection />
       <MenuSection onAddToCart={handleAddToCart} />
       <LocationSection />
       <Footer />
