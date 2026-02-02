@@ -44,6 +44,10 @@ export const translations: Translations = {
     fr: 'Commander cette tarte',
     ar: 'اطلب هذه الفطيرة',
   },
+  'gallery.addToCart': {
+    fr: 'Ajouter au panier',
+    ar: 'أضف إلى السلة',
+  },
 
   // Menu Section
   'menu.title': {

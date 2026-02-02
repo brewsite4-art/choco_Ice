@@ -7,10 +7,6 @@ import { LanguageSelector } from '@/components/LanguageSelector';
 export const HeroSection = () => {
   const { t } = useLanguage();
 
-  const scrollToMenu = () => {
-    document.getElementById('menu')?.scrollIntoView({ behavior: 'smooth' });
-  };
-
   const openWhatsApp = () => {
     window.open(`https://wa.me/212600000000?text=${encodeURIComponent(t('hero.whatsappMessage'))}`, '_blank');
   };
@@ -42,13 +38,13 @@ export const HeroSection = () => {
         <p className="text-cream/80 text-lg max-w-2xl mx-auto mb-10 animate-fade-in-up" style={{ animationDelay: '0.4s' }}>
           {t('hero.description')}
         </p>
-        <button
-          onClick={scrollToMenu}
-          className="btn-accent text-lg px-10 py-4 animate-fade-in-up"
+        <a
+          href="#menu"
+          className="btn-accent text-lg px-10 py-4 animate-fade-in-up inline-block"
           style={{ animationDelay: '0.6s' }}
         >
           {t('hero.viewMenu')}
-        </button>
+        </a>
 
       </div>
 
