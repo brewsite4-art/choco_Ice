@@ -31,8 +31,8 @@ export const translations: Translations = {
     ar: 'قصتنا',
   },
   'history.content': {
-    fr: 'Depuis 1989, Choco Ice vous accueille dans un cadre convivial et moderne. Animés par la passion des glaces et des desserts de qualité, nous mettons notre savoir-faire au service de la qualité en sélectionnant soigneusement nos ingrédients afin d’offrir des saveurs authentiques et une expérience rafraîchissante à chaque visite.',
-    ar: 'منذ 1989، يرحب بكم شوكو آيس في أجواء ودية وعصرية. مدفوعين بشغفنا للآيس كريم والحلويات عالية الجودة، نضع خبرتنا في خدمة الجودة من خلال اختيار مكوناتنا بعناية لتقديم نكهات أصلية وتجربة منعشة في كل زيارة.',
+    fr: 'Depuis 1989, Choco Ice sublime vos moments gourmands avec des glaces et desserts de qualité, élaborés à partir d’ingrédients soigneusement sélectionnés. Grâce à notre service de livraison par camions frigorifiques, nous garantissons fraîcheur et qualité dans toute la région de Tétouan.',
+    ar: 'منذ سنة 1989، تقدم شوكوآيس تجربة ذوقية مميزة من خلال مثلجات وحلويات عالية الجودة، مع خدمة توصيل عبر شاحنات مبردة تضمن الطراوة في جميع أنحاء جهة تطوان.',
   },
 
   // Gallery Section
