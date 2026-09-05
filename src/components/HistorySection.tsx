@@ -4,7 +4,7 @@ const HistorySection = () => {
     const { t } = useLanguage();
 
     return (
-        <section id="menu" className="py-16 px-4 bg-background">
+        <section id="history" className="py-16 px-4 bg-background">
             <div className="max-w-6xl mx-auto">
                 <div className="text-center mb-12">
                     <h2 className="text-4xl md:text-5xl font-playfair font-bold text-gradient mb-4">

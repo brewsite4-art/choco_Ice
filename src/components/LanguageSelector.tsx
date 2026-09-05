@@ -8,7 +8,7 @@ import {
 } from '@/components/ui/dropdown-menu';
 import { Button } from '@/components/ui/button';
 
-export const LanguageSelector = () => {
+export const LanguageSelector = ({ isDark }: { isDark?: boolean }) => {
     const { language, setLanguage, t } = useLanguage();
 
     return (
@@ -17,7 +17,10 @@ export const LanguageSelector = () => {
                 <Button
                     variant="ghost"
                     size="sm"
-                    className="flex items-center gap-2 text-cream hover:text-gold hover:bg-coffee/50 transition-all"
+                    className={`flex items-center gap-2 transition-all ${isDark
+                            ? 'text-chocolate hover:text-gold hover:bg-cream'
+                            : 'text-cream hover:text-gold hover:bg-white/10'
+                        }`}
                 >
                     <Globe className="w-4 h-4" />
                     <span className="text-sm font-medium">

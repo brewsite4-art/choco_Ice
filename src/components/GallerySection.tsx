@@ -1,7 +1,9 @@
 import { useLanguage } from '@/contexts/LanguageContext';
 import { useEffect, useState } from 'react';
+import { getGalleryImage } from '@/utils/assetUtils';
 
-const imageModules = import.meta.glob('@/assets/gallery/*.{jpg,jpeg,png,webp}');
+// This component can still use glob locally or we can use the centralized utility
+const imageModules = import.meta.glob('@/assets/gallery/*.jpg', { eager: true });
 
 // Configuration Cloudinary (à remplir par l'utilisateur)
 const CLOUDINARY_CLOUD_NAME = ''; // ex: 'votre_cloud_name'
@@ -9,8 +11,6 @@ const CLOUDINARY_BASE_URL = `https://res.cloudinary.com/${CLOUDINARY_CLOUD_NAME}
 
 const getImageUrl = (src: string) => {
     if (!CLOUDINARY_CLOUD_NAME) return src;
-    // Si c'est une image locale, on peut construire l'URL Cloudinary ici
-    // Pour cet exemple, on retourne src si pas configuré
     return src;
 };
 
@@ -21,17 +21,8 @@ const GallerySection = () => {
     const [loadedImages, setLoadedImages] = useState<Record<number, boolean>>({});
 
     useEffect(() => {
-        const loadImages = async () => {
-            const loadedPaths = await Promise.all(
-                Object.values(imageModules).map(async (loadImage: any) => {
-                    const module = await loadImage();
-                    return module.default;
-                })
-            );
-            setImages(loadedPaths);
-        };
-
-        loadImages();
+        const loadedPaths = Object.values(imageModules).map((module: any) => module.default || module);
+        setImages(loadedPaths);
     }, []);
 
     const handleLoadMore = () => {
@@ -45,7 +36,7 @@ const GallerySection = () => {
     return (
         <section className="py-16 bg-background">
             <div className="max-w-7xl mx-auto px-4">
-                <h2 className="text-4xl md:text-5xl font-playfair font-bold text-center text-gradient mb-12">
+                <h2 className="text-4xl md:text-5xl font-playfair font-bold text-gradient mb-4">
                     {t('gallery.title')}
                 </h2>
 
