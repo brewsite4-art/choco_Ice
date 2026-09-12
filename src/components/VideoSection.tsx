@@ -5,7 +5,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { Button } from '@/components/ui/button';
 
 const videos = [
-    '/assets/Video.mp4'
+    '/assets/video.mp4'
 ];
 
 export const VideoSection = () => {
@@ -38,6 +38,8 @@ export const VideoSection = () => {
 
     useEffect(() => {
         if (videoRef.current) {
+            videoRef.current.muted = true;
+            videoRef.current.defaultMuted = true;
             videoRef.current.load();
             if (isPlaying) {
                 videoRef.current.play().catch(error => {
@@ -121,6 +123,7 @@ export const VideoSection = () => {
                                         muted
                                         playsInline
                                         autoPlay
+                                        preload="auto"
                                         onClick={togglePlay}
                                     />
 
