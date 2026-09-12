@@ -58,7 +58,8 @@ export const MenuItemCard = ({ item, onAddToCart }: MenuItemCardProps) => {
       image.startsWith('pot/') ||
       image.startsWith('pack/') ||
       image.startsWith('pancakes/') ||
-      image.startsWith('pancake/')
+      image.startsWith('pancake/') ||
+      image.startsWith('boissons/')
     ) {
       return `/assets/menu/${image}`;
     }
@@ -74,6 +75,8 @@ export const MenuItemCard = ({ item, onAddToCart }: MenuItemCardProps) => {
           <img
             src={getImageSrc(item.image)}
             alt={displayName}
+            loading="lazy"
+            decoding="async"
             className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
             onError={(e) => {
               (e.target as HTMLImageElement).src = '/placeholder.svg'; // Fallback
@@ -153,7 +156,7 @@ export const MenuItemCard = ({ item, onAddToCart }: MenuItemCardProps) => {
               <div className="space-y-4 py-4">
                 {item.image && (
                   <div className="rounded-lg overflow-hidden h-48 w-full mb-4">
-                    <img src={getImageSrc(item.image)} alt={displayName} className="w-full h-full object-cover" />
+                    <img src={getImageSrc(item.image)} alt={displayName} loading="lazy" decoding="async" className="w-full h-full object-cover" />
                   </div>
                 )}
 

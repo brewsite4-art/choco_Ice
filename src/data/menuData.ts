@@ -37,7 +37,7 @@ export const menuData: MenuItem[] = [
     subsection: 'Pot de glace',
     description: 'Cône enrobé d\'éclats de noisettes, glace fraise/vanille marbrée, framboise, mûre, grenade et filet de chocolat.',
     descriptionAr: 'مخروط مغطى برقائق البندق، مثلجات بنكهة الفراولة والفانيليا، توت العليق، التوت الأسود، الرمان وقطرات الشوكولاتة.',
-    image: 'pot/Cône_fruits_rouges_&_chocolat.jpg',
+    image: 'pot/Cône_fruits_rouges_&_chocolat.webp',
     allergens: ['Lait', 'fruits secs', 'gluten']
   },
   {
@@ -49,7 +49,7 @@ export const menuData: MenuItem[] = [
     subsection: 'Pot de glace',
     description: 'Glace pistache claire et crème pistache foncée.',
     descriptionAr: ' مثلجات الفستق والكراميل بالفستق',
-    image: 'pot/Duo_Pistache_Royale.jpg',
+    image: 'pot/Duo_Pistache_Royale.webp',
     allergens: ['Lait', 'pistache']
   },
   {
@@ -61,7 +61,7 @@ export const menuData: MenuItem[] = [
     subsection: 'Pot de glace',
     description: 'Crème glacée vanille marbrée avec framboises fraîches, coulis de fruits rouges et éclats de pistache.',
     descriptionAr: 'كريمة مثلجة بالفانيليا مع التوت الأحمر الطازج، صلصة الفواكه وقطع الفستق.',
-    image: 'pot/Pot_fruits_rouges_&_pistache.jpg',
+    image: 'pot/Pot_fruits_rouges_&_pistache.webp',
     allergens: ['Lait', 'pistache', 'fruits rouges']
   },
   {
@@ -73,7 +73,7 @@ export const menuData: MenuItem[] = [
     subsection: 'Pot de glace',
     description: ' Vanille, chocolat, pistache et biscuit croquant, nappés de sauce chocolat, décorés d\'un éclat de chocolat fourré et de snikers .',
     descriptionAr: 'كريمة مثلجة بالفانيليا مع الشوكولاتة والفستق والبسكويت المقرمش، مغطاة بصلصة الشوكولاتة، ومزينة بقطع الشوكولاتة المحشوة و سنيكرز.',
-    image: 'pot/Sundae_Prestige_Choco_Ice.jpg',
+    image: 'pot/Sundae_Prestige_Choco_Ice.webp',
     allergens: ['Lait', 'cacahuètes', ' Gluten',]
   },
   {
@@ -85,7 +85,7 @@ export const menuData: MenuItem[] = [
     subsection: 'Pot de glace',
     description: 'Biscuit lotus, chocolat noir intense et vanille, décorées d\'un morceau de chocolat fourré caramel.',
     descriptionAr: ' بسكويت لوتس وشوكولاتة داكنة مكثفة وفانيليا، مزينة بقطعة شوكولاتة محشوة بالكراميل.',
-    image: 'pot/Trio_Gourmand_Lotus_Chocolat.jpg',
+    image: 'pot/Trio_Gourmand_Lotus_Chocolat.webp',
     allergens: ['Lait', 'Gluten']
   },
   {
@@ -97,7 +97,7 @@ export const menuData: MenuItem[] = [
     subsection: 'Pot de glace',
     description: 'Glace vanille marbrée coulis cerise, garnie de deux cerises fraîches entières.',
     descriptionAr: 'آيس كريم الفانيليا المرقط بصلصة الكرز، مزين بكرزتين طازجتين كاملتين.',
-    image: 'pot/Vanille_Cerise_Rouge.jpg',
+    image: 'pot/Vanille_Cerise_Rouge.webp',
     allergens: ['Lait', 'cerises']
   },
 
@@ -111,7 +111,7 @@ export const menuData: MenuItem[] = [
     subsection: 'Pack de glace',
     description: 'Trois saveurs classiques : vanille, fraise et chocolat noir, parfaites pour tous les goûts.',
     descriptionAr: 'ثلاث نكهات كلاسيكية: الفانيليا، الفراولة والشوكولاتة الداكنة، مثالية لجميع الأذواق.',
-    image: 'pack/Trio_classique.jpg',
+    image: 'pack/Trio_classique.webp',
     allergens: ['Lait'],
     sizes: [
       { size: 'M', price: 45 },
@@ -128,7 +128,7 @@ export const menuData: MenuItem[] = [
     subsection: 'Pack de glace',
     description: 'Quatre saveurs pastel douces et rafraîchissantes, parfaites pour un moment de douceur.',
     descriptionAr: 'أربع نكهات باستيل ناعمة ومنعشة، مثالية للحظة من الحلاوة.',
-    image: 'pack/pack_4_glaces.jpg',
+    image: 'pack/pack_4_glaces.webp',
     allergens: ['Lait'],
     sizes: [
       { size: 'M', price: 48 },
@@ -145,7 +145,7 @@ export const menuData: MenuItem[] = [
     subsection: 'Pack de glace',
     description: 'Large assortiment de nos saveurs signature, parfait pour partager ou pour les gourmands.',
     descriptionAr: 'تشكيلة كبيرة من النكهات المميزة لدينا، مثالية للمشاركة أو لعشاق الحلويات.',
-    image: 'pack/Grand_Assortiment_Choco_Ice.jpg',
+    image: 'pack/Grand_Assortiment_Choco_Ice.webp',
     allergens: ['Lait'],
     sizes: [
       { size: 'M', price: 55 },
@@ -162,7 +162,7 @@ export const menuData: MenuItem[] = [
     subsection: 'Pack de glace',
     description: 'vanille, bleu bubble gum, chocolat, vanille jaune, fraise, pistache.',
     descriptionAr: 'الفانيليا، الأزرق اللون العلكة، الشوكولاتة، الفانيليا الصفراء، الفراولة، الفستق.',
-    image: 'pack/pack_6_glaces.jpg',
+    image: 'pack/pack_6_glaces.webp',
     flavors: ['Tiramisu', 'Noix', 'Brownie', 'Lotus', 'Granola', 'Kinder Bueno', 'Red Velvet', 'Cheesecake'],
     allergens: ['Lait', 'Gluten'],
     sizes: [
@@ -181,7 +181,7 @@ export const menuData: MenuItem[] = [
     category: 'Crêpes',
     description: 'Crêpe fine au Nutella fondant',
     descriptionAr: 'كريب رفيع بالنوتيلا الذائبة',
-    image: 'crepes/Nutella.jpg',
+    image: 'crepes/Nutella.webp',
     ingredients: ['Farine', 'Oeufs', 'Lait', 'Nutella'],
     allergens: ['Gluten', 'Oeufs', 'Lait', 'Noisettes']
   },
@@ -193,7 +193,7 @@ export const menuData: MenuItem[] = [
     category: 'Crêpes',
     description: 'Mélange divin de trois chocolats',
     descriptionAr: 'مزيج رائع من ثلاثة أنواع الشوكولاتة',
-    image: 'crepes/3_CHOCOLATS.jpg',
+    image: 'crepes/3_CHOCOLATS.webp',
     ingredients: ['Farine', 'Oeufs', 'Lait', 'Chocolat noir', 'Chocolat lait', 'Chocolat blanc'],
     allergens: ['Gluten', 'Oeufs', 'Lait', 'Soja']
   },
@@ -205,7 +205,7 @@ export const menuData: MenuItem[] = [
     category: 'Crêpes',
     description: 'Crêpe inspirée du célèbre chocolat Dubaï à la pistache et kunafa',
     descriptionAr: 'كريب مستوحى من شوكولاتة دبي الشهيرة بالفستق والكنافة',
-    image: 'crepes/DUBAI_CHOCOLATE.jpg',
+    image: 'crepes/DUBAI_CHOCOLATE.webp',
     ingredients: ['Farine', 'Oeufs', 'Lait', 'Chocolat', 'Pistache', 'Kunafa'],
     allergens: ['Gluten', 'Oeufs', 'Lait', 'Pistache']
   },
@@ -217,7 +217,7 @@ export const menuData: MenuItem[] = [
     category: 'Crêpes',
     description: 'Crêpe garnie de Ferrero Rocher et crème pralinée',
     descriptionAr: 'كريب بحبات فيريرو روشيه وكريمة البراليني',
-    image: 'crepes/FERRERO_ROCHER.jpg',
+    image: 'crepes/FERRERO_ROCHER.webp',
     ingredients: ['Farine', 'Oeufs', 'Lait', 'Ferrero Rocher', 'Crème pralinée'],
     allergens: ['Gluten', 'Oeufs', 'Lait', 'Noisettes']
   },
@@ -229,7 +229,7 @@ export const menuData: MenuItem[] = [
     category: 'Crêpes',
     description: 'Crêpe croustillante avec des morceaux de KitKat',
     descriptionAr: 'كريب مقرمش مع قطع كيت كات',
-    image: 'crepes/KIKAT.jpg',
+    image: 'crepes/KIKAT.webp',
     ingredients: ['Farine', 'Oeufs', 'Lait', 'KitKat', 'Chocolat'],
     allergens: ['Gluten', 'Oeufs', 'Lait', 'Soja']
   },
@@ -241,7 +241,7 @@ export const menuData: MenuItem[] = [
     category: 'Crêpes',
     description: 'Crêpe fondante aux barres Kinder Bueno',
     descriptionAr: 'كريب ناعم بأصابع كيندر بوينو',
-    image: 'crepes/KINDER_BUENO.jpg',
+    image: 'crepes/KINDER_BUENO.webp',
     ingredients: ['Farine', 'Oeufs', 'Lait', 'Kinder Bueno', 'Crème noisette'],
     allergens: ['Gluten', 'Oeufs', 'Lait', 'Noisettes']
   },
@@ -253,7 +253,7 @@ export const menuData: MenuItem[] = [
     category: 'Crêpes',
     description: 'Crêpe à la crème de spéculoos Lotus Biscoff',
     descriptionAr: 'كريب بكريمة لوتس بيسكوف الناعمة',
-    image: 'crepes/LOTUS_BISCOFF.jpg',
+    image: 'crepes/LOTUS_BISCOFF.webp',
     ingredients: ['Farine', 'Oeufs', 'Lait', 'Crème Lotus', 'Biscuit Biscoff'],
     allergens: ['Gluten', 'Oeufs', 'Lait', 'Soja']
   },
@@ -265,7 +265,7 @@ export const menuData: MenuItem[] = [
     category: 'Crêpes',
     description: "Crêpe colorée garnie de M&M's et de chocolat",
     descriptionAr: "كريب ملون بحبات إم آند إم والشوكولاتة",
-    image: "crepes/M&M's.jpg",
+    image: "crepes/M&M's.webp",
     ingredients: ["Farine", "Oeufs", "Lait", "M&M's", "Chocolat"],
     allergens: ['Gluten', 'Oeufs', 'Lait', 'Arachides', 'Soja']
   },
@@ -277,7 +277,7 @@ export const menuData: MenuItem[] = [
     category: 'Crêpes',
     description: 'Crêpe à la crème de pistache premium',
     descriptionAr: 'كريب بكريمة الفستق الفاخرة',
-    image: 'crepes/PISTACHIO.jpg',
+    image: 'crepes/PISTACHIO.webp',
     ingredients: ['Farine', 'Oeufs', 'Lait', 'Crème pistache', 'Éclats de pistache'],
     allergens: ['Gluten', 'Oeufs', 'Lait', 'Pistache']
   },
@@ -289,7 +289,7 @@ export const menuData: MenuItem[] = [
     category: 'Crêpes',
     description: 'Crêpe garnie de caramel, cacahuètes et Snickers',
     descriptionAr: 'كريب بالكراميل والفول السوداني وسنيكرز',
-    image: 'crepes/SNICKERS.jpg',
+    image: 'crepes/SNICKERS.webp',
     ingredients: ['Farine', 'Oeufs', 'Lait', 'Snickers', 'Caramel', 'Cacahuètes'],
     allergens: ['Gluten', 'Oeufs', 'Lait', 'Arachides']
   },
@@ -301,7 +301,7 @@ export const menuData: MenuItem[] = [
     category: 'Crêpes',
     description: 'Crêpe inspirée du tiramisu avec mascarpone et café',
     descriptionAr: 'كريب مستوحى من التيراميسو بالماسكاربوني والقهوة',
-    image: 'crepes/TIRAMISU.jpg',
+    image: 'crepes/TIRAMISU.webp',
     ingredients: ['Farine', 'Oeufs', 'Lait', 'Mascarpone', 'Café', 'Cacao'],
     allergens: ['Gluten', 'Oeufs', 'Lait']
   },
@@ -313,7 +313,7 @@ export const menuData: MenuItem[] = [
     category: 'Crêpes',
     description: 'Crêpe au caramel et biscuit façon Twix',
     descriptionAr: 'كريب بالكراميل والبسكويت على طريقة تويكس',
-    image: 'crepes/TWIX.jpg',
+    image: 'crepes/TWIX.webp',
     ingredients: ['Farine', 'Oeufs', 'Lait', 'Twix', 'Caramel', 'Chocolat'],
     allergens: ['Gluten', 'Oeufs', 'Lait', 'Soja']
   },
@@ -325,7 +325,7 @@ export const menuData: MenuItem[] = [
     category: 'Crêpes',
     description: 'Crêpe garnie façon maison',
     descriptionAr: 'كريب بالنوتيلا والموز الطازج',
-    image: 'crepes/18.jpg',
+    image: 'crepes/nutella_banane.webp',
     ingredients: ['Farine', 'Oeufs', 'Lait', 'Nutella', 'Banane'],
     allergens: ['Gluten', 'Oeufs', 'Lait', 'Noisettes']
   },
@@ -337,7 +337,7 @@ export const menuData: MenuItem[] = [
     category: 'Crêpes',
     description: 'Notre crêpe signature aux saveurs uniques',
     descriptionAr: 'كريبنا المميز بنكهات فريدة',
-    image: 'crepes/3.jpg',
+    image: 'crepes/3.webp',
     ingredients: ['Farine', 'Oeufs', 'Lait', 'Garniture signature'],
     allergens: ['Gluten', 'Oeufs', 'Lait']
   },
@@ -349,7 +349,7 @@ export const menuData: MenuItem[] = [
     category: 'Crêpes',
     description: 'Crêpe généreuse pour les vrais gourmands',
     descriptionAr: 'كريب سخي لمحبي الحلويات الكبار',
-    image: 'crepes/16.jpg',
+    image: 'crepes/16.webp',
     ingredients: ['Farine', 'Oeufs', 'Lait', 'Garniture premium'],
     allergens: ['Gluten', 'Oeufs', 'Lait']
   },
@@ -361,7 +361,7 @@ export const menuData: MenuItem[] = [
     category: 'Crêpes',
     description: 'Crêpe généreuse aux saveurs de gâteau',
     descriptionAr: 'كريب فاخر بنكهات الكيكة',
-    image: 'crepes/11.jpg',
+    image: 'crepes/11.webp',
     ingredients: ['Farine', 'Oeufs', 'Lait', 'Garniture premium'],
     allergens: ['Gluten', 'Oeufs', 'Lait']
   },
@@ -373,7 +373,7 @@ export const menuData: MenuItem[] = [
     category: 'Crêpes',
     description: 'Crêpe aux saveurs de fruits',
     descriptionAr: 'كريب بالفواكه',
-    image: 'crepes/6.jpg',
+    image: 'crepes/6.webp',
     ingredients: ['Farine', 'Oeufs', 'Lait', 'Garniture fruits'],
     allergens: ['Gluten', 'Oeufs', 'Lait']
   },
@@ -411,7 +411,7 @@ export const menuData: MenuItem[] = [
     category: 'Gaufres',
     description: 'Trio Oreo, Snickers et Kinder',
     descriptionAr: 'ثلاثي أوريو وسنيكرز وكيندر',
-    image: 'gaufres/O_S_K.jpg',
+    image: 'gaufres/O_S_K.webp',
     ingredients: ['Gaufre', 'Oreo', 'Snickers', 'Kinder', 'Chocolat'],
     allergens: ['Gluten', 'Oeufs', 'Lait', 'Arachides', 'Soja']
   },
@@ -423,7 +423,7 @@ export const menuData: MenuItem[] = [
     category: 'Gaufres',
     description: 'Gaufre avec crème pistache premium',
     descriptionAr: 'وافل بكريمة الفستق الفاخرة',
-    image: 'gaufres/PISTACHE.jpg',
+    image: 'gaufres/PISTACHE.webp',
     ingredients: ['Gaufre', 'Crème pistache', 'Éclats de pistache'],
     allergens: ['Gluten', 'Oeufs', 'Lait', 'Pistache']
   },
@@ -435,7 +435,7 @@ export const menuData: MenuItem[] = [
     category: 'Gaufres',
     description: 'Gaufre croustillante nappée de fruits',
     descriptionAr: 'وافل مقرمش مغطى بالفواكه',
-    image: 'gaufres/FRUIT.jpg',
+    image: 'gaufres/FRUIT.webp',
     ingredients: ['Farine', 'Oeufs', 'Lait', 'Fraise', 'Mangue', 'Banane', 'Framboise'],
     allergens: ['Gluten', 'Oeufs', 'Lait', 'Fruits']
   },
@@ -447,7 +447,7 @@ export const menuData: MenuItem[] = [
     category: 'Gaufres',
     description: 'Gaufre avec crème et chocolat',
     descriptionAr: 'وافل بالكريمة والشوكولاتة',
-    image: 'gaufres/CREME.jpg',
+    image: 'gaufres/CREME.webp',
     ingredients: ['Farine', 'Oeufs', 'Lait', 'Chocolat'],
     allergens: ['Gluten', 'Oeufs', 'Lait', 'Chocolat']
   },
@@ -459,7 +459,7 @@ export const menuData: MenuItem[] = [
     category: 'Gaufres',
     description: 'Gaufre avec kinder Bueno',
     descriptionAr: 'وافل بكيندر بوينو',
-    image: 'gaufres/O_S_K.jpg',
+    image: 'gaufres/O_S_K.webp',
     ingredients: ['Farine', 'Oeufs', 'Lait', 'Kinder Bueno'],
     allergens: ['Gluten', 'Oeufs', 'Lait']
   },
@@ -471,7 +471,7 @@ export const menuData: MenuItem[] = [
     category: 'Gaufres',
     description: 'Gaufre croustillante avec nutella et banane',
     descriptionAr: 'وافل مقرمش بالنوتيلا والموز',
-    image: 'gaufres/Nutella_Banane.jpg',
+    image: 'gaufres/Nutella_Banane.webp',
     ingredients: ['Farine', 'Oeufs', 'Lait', 'Nutella', 'Banane'],
     allergens: ['Gluten', 'Oeufs', 'Lait']
   },
@@ -485,7 +485,7 @@ export const menuData: MenuItem[] = [
     category: 'Choco Cups',
     description: 'L\'expérience chocolatée ultime de Dubaï avec pistache et kunafa croustillante',
     descriptionAr: 'تجربة الشوكولاتة الدبياوية الفاخرة بالفستق والكنافة المقرمشة',
-    image: 'cups/dubai_cup.jpg',
+    image: 'cups/dubai_cup.webp',
     ingredients: ['Chocolat', 'Pistache', 'Kunafa', 'Crème'],
     allergens: ['Lait', 'Pistache', 'Gluten'],
     sizes: [
@@ -501,7 +501,7 @@ export const menuData: MenuItem[] = [
     category: 'Choco Cups',
     description: 'Crème de spéculoos Lotus onctueuse et brisures de biscuit croquantes',
     descriptionAr: 'كريمة لوتس بيسكوف ناعمة ومخملية مع قطع البسكويت المقرمشة',
-    image: 'cups/lotus_cup.jpg',
+    image: 'cups/lotus_cup.webp',
     ingredients: ['Biscuit Lotus', 'Crème spéculoos', 'Chocolat blanc'],
     allergens: ['Lait', 'Gluten'],
     sizes: [
@@ -517,7 +517,7 @@ export const menuData: MenuItem[] = [
     category: 'Choco Cups',
     description: 'Oreo croustillant et crème fondante au chocolat blanc',
     descriptionAr: 'أوريو مقرمش مع كريمة ناعمة وشوكولاتة بيضاء غنية',
-    image: 'cups/oreo_cup.jpg',
+    image: 'cups/oreo_cup.webp',
     ingredients: ['Oreo', 'Chocolat blanc', 'Crème'],
     allergens: ['Lait', 'Gluten', 'Soja'],
     sizes: [
@@ -533,7 +533,7 @@ export const menuData: MenuItem[] = [
     category: 'Choco Cups',
     description: 'Crème noisette onctueuse et morceaux de Kinder Bueno',
     descriptionAr: 'كريمة البندق الناعمة مع قطع كيندر بوينو اللذيذة',
-    image: 'cups/kinder_cup.jpg',
+    image: 'cups/kinder_cup.webp',
     ingredients: ['Kinder Bueno', 'Chocolat au lait', 'Crème noisette'],
     allergens: ['Lait', 'Noisettes', 'Gluten'],
     sizes: [
@@ -549,7 +549,7 @@ export const menuData: MenuItem[] = [
     category: 'Choco Cups',
     description: 'Un mélange raffiné de crème au chocolat et de fraises fraîches',
     descriptionAr: 'مزيج فاخر من كريمة الشوكولاتة والفراولة الطازجة',
-    image: 'cups/choco_cup.jpg',
+    image: 'cups/choco_cup.webp',
     ingredients: ['Chocolat', 'Fraise'],
     allergens: ['Lait'],
     sizes: [
@@ -567,7 +567,7 @@ export const menuData: MenuItem[] = [
     category: 'Tartes',
     description: 'Pâte sablée pur beurre, ganache chocolat noir intense et croustillant praliné.',
     descriptionAr: 'عجينة صابلي بالزبدة النقية، غاناش الشوكولاتة الداكنة وبراليني مقرمش.',
-    image: 'cake1.jpg',
+    image: 'cake1.webp',
     allergens: ['Gluten', 'Lait', 'Oeufs', 'Noisettes']
   },
   {
@@ -578,7 +578,7 @@ export const menuData: MenuItem[] = [
     category: 'Tartes',
     description: 'Chocolat moelleux, crème chantilly légère et cerises amarena avec coulis de fruits rouges.',
     descriptionAr: 'كيك الشوكولاتة الهش، كريمة خفيفة وكرز أمارين مع صلصة الفواكه الحمراء.',
-    image: 'cake2.jpg',
+    image: 'cake2.webp',
     allergens: ['Gluten', 'Lait', 'Oeufs']
   },
   {
@@ -589,7 +589,7 @@ export const menuData: MenuItem[] = [
     category: 'Tartes',
     description: 'Crème onctueuse à la pistache de Sicile, éclats de pistaches torréfiées et biscuit moelleux.',
     descriptionAr: 'كريمة فستق صقلية فاخرة، حبات فستق محمصة وبسكويت طري.',
-    image: 'cake3.jpg',
+    image: 'cake3.webp',
     allergens: ['Gluten', 'Lait', 'Oeufs', 'Pistache']
   },
   {
@@ -600,7 +600,7 @@ export const menuData: MenuItem[] = [
     category: 'Tartes',
     description: 'Framboises fraîches gorgées de soleil sur un lit de crème diplomate à la vanille de Madagascar.',
     descriptionAr: 'توت أحمر طازج على طبقة من كريمة الدبلوماسي بفانيليا مدغشقر.',
-    image: 'cake4.jpg',
+    image: 'cake4.webp',
     allergens: ['Gluten', 'Lait', 'Oeufs']
   },
   {
@@ -611,7 +611,7 @@ export const menuData: MenuItem[] = [
     category: 'Tartes',
     description: 'Fond croustillant au spéculoos, crème onctueuse Lotus et caramel au beurre salé.',
     descriptionAr: 'قاعدة مقرمشة ببسكويت لوتس، كريمة لوتس غنية وكراميل الزبدة المملحة.',
-    image: 'cake5.jpg',
+    image: 'cake5.webp',
     allergens: ['Gluten', 'Lait', 'Oeufs', 'Soja']
   },
   {
@@ -622,7 +622,7 @@ export const menuData: MenuItem[] = [
     category: 'Tartes',
     description: 'Biscuit Oreo croquant, mousse fondante au chocolat blanc et ganache onctueuse.',
     descriptionAr: 'بسكويت أوريو مقرمش، موس الشوكولاتة البيضاء وغاناش ناعم.',
-    image: 'cake6.jpg',
+    image: 'cake6.webp',
     allergens: ['Gluten', 'Lait', 'Oeufs', 'Soja']
   },
   {
@@ -633,7 +633,7 @@ export const menuData: MenuItem[] = [
     category: 'Tartes',
     description: 'Crème pralinée noisette, morceaux de Kinder Bueno et nappage chocolat au lait.',
     descriptionAr: 'كريمة البندق والبراليني، قطع كيندر بوينو وتغطية بالشوكولاتة بالحليب.',
-    image: 'cake7.jpg',
+    image: 'cake7.webp',
     allergens: ['Gluten', 'Lait', 'Oeufs', 'Noisettes']
   },
   {
@@ -644,7 +644,7 @@ export const menuData: MenuItem[] = [
     category: 'Tartes',
     description: 'La fameuse création inspirée de Dubaï : kunafa croustillante, crème de pistache pure et chocolat belge.',
     descriptionAr: 'ابتكار دبي الشهير: كنافة مقرمشة، كريمة الفستق الصافي وشوكولاتة بلجيكية فاخرة.',
-    image: 'cake8.jpg',
+    image: 'cake8.webp',
     allergens: ['Gluten', 'Lait', 'Oeufs', 'Pistache']
   },
   {
@@ -655,7 +655,7 @@ export const menuData: MenuItem[] = [
     category: 'Tartes',
     description: 'Crème légère à la noix de coco, amandes effilées toastées et chocolat blanc velouté.',
     descriptionAr: 'كريمة جوز الهند الخفيفة، رقائق اللوز المحمص وشوكولاتة بيضاء ناعمة.',
-    image: 'cake9.jpg',
+    image: 'cake9.webp',
     allergens: ['Gluten', 'Lait', 'Oeufs', 'Amandes']
   },
   {
@@ -666,7 +666,7 @@ export const menuData: MenuItem[] = [
     category: 'Tartes',
     description: 'Mousse glacée au cacao 70%, cœur coulant caramel et finition miroir chocolat.',
     descriptionAr: 'موس مثلج بالكاكاو 70%، قلب من الكراميل وتغليف لامع بالشوكولاتة.',
-    image: 'cake10.jpg',
+    image: 'cake10.webp',
     allergens: ['Gluten', 'Lait', 'Oeufs']
   },
   {
@@ -677,7 +677,7 @@ export const menuData: MenuItem[] = [
     category: 'Tartes',
     description: 'Notre création signature exclusive aux saveurs raffinées et ingrédients d\'exception.',
     descriptionAr: 'إبداعنا الحصري بنكهات راقية ومكونات استثنائية عالية الجودة.',
-    image: 'cake11.jpg',
+    image: 'cake11.webp',
     allergens: ['Gluten', 'Lait', 'Oeufs']
   },
   {
@@ -688,7 +688,7 @@ export const menuData: MenuItem[] = [
     category: 'Tartes',
     description: 'Notre création signature exclusive aux saveurs raffinées et ingrédients d\'exception.',
     descriptionAr: 'إبداعنا الحصري بنكهات راقية ومكونات استثنائية عالية الجودة.',
-    image: 'cake12.jpg',
+    image: 'cake12.webp',
     allergens: ['Gluten', 'Lait', 'Oeufs']
   },
   {
@@ -699,7 +699,7 @@ export const menuData: MenuItem[] = [
     category: 'Tartes',
     description: 'Notre création signature exclusive aux saveurs raffinées et ingrédients d\'exception.',
     descriptionAr: 'إبداعنا الحصري بنكهات راقية ومكونات استثنائية عالية الجودة.',
-    image: 'cake13.jpg',
+    image: 'cake13.webp',
     allergens: ['Gluten', 'Lait', 'Oeufs']
   },
   {
@@ -710,7 +710,7 @@ export const menuData: MenuItem[] = [
     category: 'Tartes',
     description: 'Notre création signature exclusive aux saveurs raffinées et ingrédients d\'exception.',
     descriptionAr: 'إبداعنا الحصري بنكهات راقية ومكونات استثنائية عالية الجودة.',
-    image: 'cake14.jpg',
+    image: 'cake14.webp',
     allergens: ['Gluten', 'Lait', 'Oeufs']
   },
   {
@@ -721,7 +721,7 @@ export const menuData: MenuItem[] = [
     category: 'Tartes',
     description: 'Notre création signature exclusive aux saveurs raffinées et ingrédients d\'exception.',
     descriptionAr: 'إبداعنا الحصري بنكهات راقية ومكونات استثنائية عالية الجودة.',
-    image: 'cake15.jpg',
+    image: 'cake15.webp',
     allergens: ['Gluten', 'Lait', 'Oeufs']
   },
   {
@@ -732,7 +732,7 @@ export const menuData: MenuItem[] = [
     category: 'Tartes',
     description: 'Notre création signature exclusive aux saveurs raffinées et ingrédients d\'exception.',
     descriptionAr: 'إبداعنا الحصري بنكهات راقية ومكونات استثنائية عالية الجودة.',
-    image: 'cake16.jpg',
+    image: 'cake16.webp',
     allergens: ['Gluten', 'Lait', 'Oeufs']
   },
 
@@ -796,13 +796,125 @@ export const menuData: MenuItem[] = [
     image: '',
     ingredients: ['Farine', 'Oeufs', 'Lait', 'Crème pistache', 'Éclats de pistache'],
     allergens: ['Gluten', 'Oeufs', 'Lait', 'Pistache']
+  },
+
+  // =====================
+  // Boissons
+  // =====================
+  {
+    id: 'bo-1',
+    name: 'Blue Berry Mojito',
+    nameAr: 'بلو بيري موهيتو',
+    price: 30,
+    category: 'Boissons',
+    description: 'Mojito rafraîchissant aux myrtilles fraîches, menthe et jus de citron vert.',
+    descriptionAr: 'موهيتو منعش بالتوت الأزرق الطازج، النعناع وعصير الليمون الأخضر.',
+    image: 'boissons/Blue_Berry_Mojito.webp',
+    ingredients: ['Myrtilles', 'Menthe', 'Citron vert', 'Sucre', 'Eau gazeuse'],
+    allergens: []
+  },
+  {
+    id: 'bo-2',
+    name: 'Blue Lagoon',
+    nameAr: 'بلو لاغون',
+    price: 32,
+    category: 'Boissons',
+    description: 'Boisson légère et colorée aux saveurs tropicales bleutées, fraîche et désaltérante.',
+    descriptionAr: 'مشروب خفيف وملوَّن بنكهات استوائية زرقاء، منعش ومرطب.',
+    image: 'boissons/Blue_Lagoon.webp',
+    ingredients: ['Sirop bleu', 'Citron', 'Eau gazeuse', 'Glaçons'],
+    allergens: []
+  },
+  {
+    id: 'bo-3',
+    name: 'Creamy Pineapple',
+    nameAr: 'كريمي بينابل',
+    price: 35,
+    category: 'Boissons',
+    description: 'Smoothie crémeux à l\'ananas tropical, onctueux et rafraîchissant.',
+    descriptionAr: 'سموذي كريمي بالأناناس الاستوائي، ناعم ومنعش.',
+    image: 'boissons/Creamy_Pineapple.webp',
+    ingredients: ['Ananas', 'Lait de coco', 'Crème', 'Glaçons'],
+    allergens: ['Lait']
+  },
+  {
+    id: 'bo-4',
+    name: 'Hot Chocolate Viennois',
+    nameAr: 'شوكولاتة ساخنة فيينوا',
+    price: 30,
+    category: 'Boissons',
+    description: 'Chocolat chaud onctueux à la viennoise, surmonté d\'une généreuse couche de chantilly.',
+    descriptionAr: 'شوكولاتة ساخنة ناعمة على الطريقة الفيينية، مع طبقة سخية من الكريمة المخفوقة.',
+    image: 'boissons/Hot_Chocolate_Viennois.webp',
+    ingredients: ['Chocolat', 'Lait', 'Crème chantilly'],
+    allergens: ['Lait', 'Soja']
+  },
+  {
+    id: 'bo-5',
+    name: 'Iced Latte',
+    nameAr: 'آيسد لاتيه',
+    price: 28,
+    category: 'Boissons',
+    description: 'Café latte glacé, espresso intense sur lit de glaçons et lait frais.',
+    descriptionAr: 'لاتيه مثلج، إسبريسو قوي على قاعدة من الثلج والحليب الطازج.',
+    image: 'boissons/Iced_Latte.webp',
+    ingredients: ['Espresso', 'Lait', 'Glaçons', 'Sirop vanille'],
+    allergens: ['Lait']
+  },
+  {
+    id: 'bo-6',
+    name: 'Mango Berry Smoothie',
+    nameAr: 'سموذي المانغو والتوت',
+    price: 35,
+    category: 'Boissons',
+    description: 'Smoothie tropical à la mangue juteuse et fruits rouges, vitaminé et coloré.',
+    descriptionAr: 'سموذي استوائي بالمانغو العصيرية والفواكه الحمراء، غني بالفيتامينات.',
+    image: 'boissons/Mango_Berry_Smoothie.webp',
+    ingredients: ['Mangue', 'Fraise', 'Framboise', 'Yaourt', 'Miel'],
+    allergens: ['Lait']
+  },
+  {
+    id: 'bo-7',
+    name: 'Oreo Milkshake',
+    nameAr: 'ميلك شيك أوريو',
+    price: 38,
+    category: 'Boissons',
+    description: 'Milkshake épais et gourmand aux biscuits Oreo, crème glacée vanille et chantilly.',
+    descriptionAr: 'ميلك شيك كثيف ولذيذ ببسكويت أوريو، آيس كريم الفانيليا والكريمة المخفوقة.',
+    image: 'boissons/Oreo_Milkshake.webp',
+    ingredients: ['Oreo', 'Glace vanille', 'Lait', 'Crème chantilly'],
+    allergens: ['Lait', 'Gluten', 'Soja']
+  },
+  {
+    id: 'bo-8',
+    name: 'Pistachio Latte',
+    nameAr: 'لاتيه الفستق',
+    price: 35,
+    category: 'Boissons',
+    description: 'Latte au café avec crème de pistache onctueuse et lait chaud moussu.',
+    descriptionAr: 'لاتيه بالقهوة مع كريمة الفستق الناعمة والحليب الساخن الرغوي.',
+    image: 'boissons/Pistachio_Latte.webp',
+    ingredients: ['Espresso', 'Lait', 'Crème pistache', 'Mousse de lait'],
+    allergens: ['Lait', 'Pistache']
+  },
+  {
+    id: 'bo-9',
+    name: 'Strawberry Lemonade',
+    nameAr: 'ليمونادة الفراولة',
+    price: 30,
+    category: 'Boissons',
+    description: 'Limonade pétillante à la fraise fraîche, acidulée et sucrée à la fois.',
+    descriptionAr: 'ليمونادة مفعمة بالحيوية بالفراولة الطازجة، حامضة وحلوة في آنٍ واحد.',
+    image: 'boissons/Strawberry_Lemonade.webp',
+    ingredients: ['Fraise', 'Citron', 'Sucre', 'Eau gazeuse', 'Menthe'],
+    allergens: []
   }
 
 ];
 
 export const featuredProducts: MenuItem[] = menuData.filter(item => item.category === 'Tartes').slice(0, 4);
 
-export const categories = ['Glace', 'Choco Cups', 'Gaufres', 'Crêpes', 'Pancakes'];
+export const categories = ['Glace', 'Choco Cups', 'Gaufres', 'Crêpes', 'Pancakes', 'Boissons'];
 
 export const deliveryFees = {
   'Tétouan': 5,

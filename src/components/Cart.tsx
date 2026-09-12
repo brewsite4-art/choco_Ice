@@ -30,7 +30,10 @@ export const Cart = () => {
       image.startsWith('gaufres/') ||
       image.startsWith('cups/') ||
       image.startsWith('pot/') ||
-      image.startsWith('pack/')
+      image.startsWith('pack/') ||
+      image.startsWith('pancakes/') ||
+      image.startsWith('pancake/') ||
+      image.startsWith('boissons/')
     ) {
       return `/assets/menu/${image}`;
     }
@@ -117,14 +120,14 @@ export const Cart = () => {
                       <div key={item.id} className="card-menu flex items-center gap-3">
                         {/* Tiny thumbnail if available */}
                         {item.image && (
-                          <div className="w-12 h-12 rounded-full overflow-hidden shrink-0 border border-border">
-                            <img src={getImageSrc(item.image)} alt={language === 'ar' && item.nameAr ? item.nameAr : item.name} className="w-full h-full object-cover"
-                              onError={(e) => {
-                                // Fallback logic
-                                (e.target as HTMLImageElement).style.display = 'none';
-                              }}
-                            />
-                          </div>
+                            <div className="w-12 h-12 rounded-full overflow-hidden shrink-0 border border-border">
+                              <img src={getImageSrc(item.image)} alt={language === 'ar' && item.nameAr ? item.nameAr : item.name} loading="lazy" decoding="async" className="w-full h-full object-cover"
+                                onError={(e) => {
+                                  // Fallback logic
+                                  (e.target as HTMLImageElement).style.display = 'none';
+                                }}
+                              />
+                            </div>
                         )}
                         <div className="flex-1">
                           <h4 className="font-semibold text-foreground text-sm">{language === 'ar' && item.nameAr ? item.nameAr : item.name}</h4>

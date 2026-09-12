@@ -116,6 +116,10 @@ export const translations: Translations = {
     fr: 'Pancakes',
     ar: 'بان كيك',
   },
+  'category.boissons': {
+    fr: 'Boissons',
+    ar: 'مشروبات',
+  },
 
   // Subsections
   'subsection.potDeGlace': {
@@ -616,4 +620,5 @@ export const categoryTranslationKeys: { [key: string]: string } = {
   'Glaces': 'category.iceCream',
   'Glace': 'category.glace',
   'Pancakes': 'category.pancakes',
+  'Boissons': 'category.boissons',
 };

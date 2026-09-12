@@ -5,7 +5,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { Button } from '@/components/ui/button';
 
 const videos = [
-    '/assets/video.mp4'
+    '/assets/Video.mp4'
 ];
 
 export const VideoSection = () => {
